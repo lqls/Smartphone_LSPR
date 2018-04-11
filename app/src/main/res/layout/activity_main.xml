@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 在滚动布局中加入线性布局 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <!-- 启动Logo的ImageView控件 -->
+
+    <ImageView
+        android:id="@+id/ImageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitXY" />
+
+</RelativeLayout>
